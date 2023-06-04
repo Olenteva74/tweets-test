@@ -1,0 +1,162 @@
+[
+    {
+     "createdAt": "2023-06-01T18:22:05.945Z",
+     "avatar": "https://images.pexels.com/photos/3196977/pexels-photo-3196977.jpeg",
+     "user": "Jim Dicki",
+     "tweets": 523,
+     "followers": 10555,
+     "id": "1"
+    },
+    {
+     "createdAt": "2023-06-01T16:31:46.052Z",
+     "avatar": "https://images.pexels.com/photos/3760917/pexels-photo-3760917.jpeg",
+     "user": "Leland Hudson",
+     "tweets": 100,
+     "followers": 999,
+     "id": "2"
+    },
+    {
+     "createdAt": "2023-06-01T19:29:40.842Z",
+     "avatar": "https://images.pexels.com/photos/1249278/pexels-photo-1249278.jpeg",
+     "user": "Thelma Reinger",
+     "tweets": 881,
+     "followers": 8325,
+     "id": "3"
+    },
+    {
+     "createdAt": "2023-06-01T20:44:51.438Z",
+     "avatar": "https://images.pexels.com/photos/2227958/pexels-photo-2227958.jpeg",
+     "user": "Angie Bartoletti",
+     "tweets": 63,
+     "followers": 200,
+     "id": "4"
+    },
+    {
+     "createdAt": "2023-06-01T17:22:59.512Z",
+     "avatar": "https://images.pexels.com/photos/2122276/pexels-photo-2122276.jpeg",
+     "user": "Evelyn Hegmann",
+     "tweets": 900,
+     "followers": 300259,
+     "id": "5"
+    },
+    {
+     "createdAt": "2023-06-01T18:44:06.083Z",
+     "avatar": "https://images.pexels.com/photos/629922/pexels-photo-629922.jpeg",
+     "user": "Patricia Kirlin",
+     "tweets": 24,
+     "followers": 210,
+     "id": "6"
+    },
+    {
+     "createdAt": "2023-06-01T10:27:23.096Z",
+     "avatar": "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg",
+     "user": "Becky Wolff Sr.",
+     "tweets": 950,
+     "followers": 28003,
+     "id": "7"
+    },
+    {
+     "createdAt": "2023-06-02T07:08:02.898Z",
+     "avatar": "https://images.pexels.com/photos/7266015/pexels-photo-7266015.jpeg",
+     "user": "Wayne Jaskolski III",
+     "tweets": 54,
+     "followers": 590,
+     "id": "8"
+    },
+    {
+     "createdAt": "2023-06-01T20:20:05.944Z",
+     "avatar": "https://images.pexels.com/photos/9810383/pexels-photo-9810383.jpeg",
+     "user": "Tomas Legros II",
+     "tweets": 3000,
+     "followers": 73099,
+     "id": "9"
+    },
+    {
+     "createdAt": "2023-06-02T03:03:34.183Z",
+     "avatar": "https://images.pexels.com/photos/1083855/pexels-photo-1083855.jpeg",
+     "user": "Bert McGlynn",
+     "tweets": 93,
+     "followers": 1000,
+     "id": "10"
+    },
+    {
+     "createdAt": "2023-06-01T17:12:37.731Z",
+     "avatar": "https://images.pexels.com/photos/547593/pexels-photo-547593.jpeg",
+     "user": "Boyd Gerhold",
+     "tweets": 72,
+     "followers": 205,
+     "id": "11"
+    },
+    {
+     "createdAt": "2023-06-01T14:56:14.964Z",
+     "avatar": "https://images.pexels.com/photos/1034012/pexels-photo-1034012.jpeg",
+     "user": "Elisa Kiehn",
+     "tweets": 25,
+     "followers": 370,
+     "id": "12"
+    },
+    {
+     "createdAt": "2023-06-01T10:14:05.747Z",
+     "avatar": "https://images.pexels.com/photos/1128306/pexels-photo-1128306.jpeg",
+     "user": "Silvia Paucek",
+     "tweets": 65,
+     "followers": 980,
+     "id": "13"
+    },
+    {
+     "createdAt": "2023-06-01T21:02:27.265Z",
+     "avatar": "https://images.pexels.com/photos/1243869/pexels-photo-1243869.jpeg",
+     "user": "Vicky Hahn",
+     "tweets": 43,
+     "followers": 4909,
+     "id": "14"
+    },
+    {
+     "createdAt": "2023-06-02T03:48:58.918Z",
+     "avatar": "https://images.pexels.com/photos/3698353/pexels-photo-3698353.jpeg",
+     "user": "Donald Botsford",
+     "tweets": 90,
+     "followers": 299,
+     "id": "15"
+    },
+    {
+     "createdAt": "2023-06-01T09:53:00.196Z",
+     "avatar": "https://images.pexels.com/photos/5806241/pexels-photo-5806241.jpeg",
+     "user": "Caleb Kuhic",
+     "tweets": 77,
+     "followers": 3800,
+     "id": "16"
+    },
+    {
+     "createdAt": "2023-06-01T16:05:43.657Z",
+     "avatar": "https://images.pexels.com/photos/1559193/pexels-photo-1559193.jpeg",
+     "user": "Angelina Streich",
+     "tweets": 8,
+     "followers": 26,
+     "id": "17"
+    },
+    {
+     "createdAt": "2023-06-01T17:42:11.883Z",
+     "avatar": "https://images.pexels.com/photos/59548/pexels-photo-59548.jpeg",
+     "user": "Tammy Ryan",
+     "tweets": 33,
+     "followers": 770,
+     "id": "18"
+    },
+    {
+     "createdAt": "2023-06-02T03:20:28.901Z",
+     "avatar": "https://images.pexels.com/photos/4197518/pexels-photo-4197518.jpeg",
+     "user": "Drew Kassulke V",
+     "tweets": 91,
+     "followers": 4222,
+     "id": "19"
+    },
+    {
+     "createdAt": "2023-06-02T01:37:57.399Z",
+     "avatar": "https://images.pexels.com/photos/4106090/pexels-photo-4106090.jpeg",
+     "user": "Leon Gislason",
+     "tweets": 2,
+     "followers": 38,
+     "id": "20"
+    }
+   ]
