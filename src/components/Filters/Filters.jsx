@@ -1,11 +1,13 @@
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { setStatusFilter } from "store/filterSlice";
 import { hideButtonLoadMore, showButtonLoadMore } from "store/userSlice";
+import { selectPage } from "store/selectors";
 import { ALL, FOLLOW, FOLLOWING } from "constants/constants";
 import { ButtonContainer, FilterButton } from "./Filters.styled";
 
 export const Filters = () => {
     const dispatch = useDispatch();
+    const page = useSelector(selectPage);
 
     const filterCards = (event) => {
         const status = event.target.dataset.status;  
@@ -13,7 +15,7 @@ export const Filters = () => {
   
         if (status !== ALL) {
           dispatch(hideButtonLoadMore());
-        } else {
+        } else if (page !== 0){
           dispatch(showButtonLoadMore());
         }
       }

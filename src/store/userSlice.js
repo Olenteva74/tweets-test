@@ -49,6 +49,7 @@ const userSlice = createSlice({
             state.error = action.payload;
             state.isLoading = false;
             state.showLoadButton = false;
+            state.page = 0;
         })
     }
 });

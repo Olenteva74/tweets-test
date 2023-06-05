@@ -21,11 +21,11 @@ const Tweets = () => {
   const page = useSelector(selectPage);
 
   useEffect(() => {
-    if (Math.ceil(users.length / 3) !== page) {
+    if (Math.ceil(users.length / 3) !== page && page !== 0) {
         dispatch(fetchUsers(page));
     }
 
-  }, [page, dispatch, users]);
+  }, [page, users, dispatch]);
 
   useEffect(() => {
     document.getElementById('root').scrollIntoView({ behavior: "smooth", block: "end", inline: "nearest" });

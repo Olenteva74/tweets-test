@@ -20,7 +20,6 @@ export const fetchUsers = createAsyncThunk("users/fetchUsers", async (p, {reject
               });
             return rejectWithValue("No more users");
          }
-    
           return response.data;
 
     } catch (error) {
