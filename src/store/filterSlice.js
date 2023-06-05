@@ -1,9 +1,10 @@
 import { createSlice } from "@reduxjs/toolkit";
+import { ALL } from "constants/constants";
 
 const filterSlice = createSlice( {
     name: "filter",
     initialState: {
-        status: "all"
+        status: ALL
     },
     reducers: {
         setStatusFilter(state, action) {

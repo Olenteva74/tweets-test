@@ -1,4 +1,5 @@
 # tweets
+## Tech task
 1️ ✅ Implement user cards according to the [layout] (https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?type=design&node-id=0-1&t=TK9lDKzWuV3eclAz-0)
 
 2 ✅ OnClick "Follow" button text changes to "Following"

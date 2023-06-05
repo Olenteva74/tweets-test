@@ -26,6 +26,12 @@ const userSlice = createSlice({
         },
         addPage(state, action) {
             state.page = state.page + action.payload
+        },
+        hideButtonLoadMore(state) {
+            state.showLoadButton = false;
+        },
+        showButtonLoadMore(state) {
+            state.showLoadButton = true;
         }
     },
     extraReducers: (builder) => {
@@ -47,5 +53,5 @@ const userSlice = createSlice({
     }
 });
 
-export const {toggleStatus, cleanMemory, addPage} = userSlice.actions;
+export const {toggleStatus, cleanMemory, addPage, hideButtonLoadMore, showButtonLoadMore} = userSlice.actions;
 export const userReducer = userSlice.reducer;

@@ -1,3 +1,5 @@
+import { FOLLOW, FOLLOWING } from "constants/constants";
+
 export const selectFilter = state => state.filter.filter;
 export const selectUsers = state => state.users.users;
 export const selectIsLoading = state => state.users.isLoading;
@@ -11,9 +13,9 @@ export const selectVisibleUsers = state => {
     const statusFilter = selectStatusFilter(state);
 
     switch (statusFilter) {
-        case "follow":
+        case FOLLOW:
             return users.filter(user => !user.isFollowing);
-        case "following":
+        case FOLLOWING:
             return users.filter(user => user.isFollowing);   
         default:
             return users;
