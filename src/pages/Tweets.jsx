@@ -21,7 +21,7 @@ const Tweets = () => {
   const page = useSelector(selectPage);
 
   useEffect(() => {
-    if (users.length / 3 !== page) {
+    if (Math.ceil(users.length / 3) !== page) {
         dispatch(fetchUsers(page));
     }
 

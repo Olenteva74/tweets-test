@@ -3,11 +3,10 @@ import { Suspense } from "react";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Loader } from "components/Loader";
-import { ColorContainer, MainContainer, Header, Nav, Link } from "./SharedLayout.styled";
+import { MainContainer, Header, Nav, Link } from "./SharedLayout.styled";
 
 export const SharedLayout = () => {
     return (
-        <ColorContainer>
         <MainContainer>
             <Header>
                 <Nav>
@@ -23,6 +22,5 @@ export const SharedLayout = () => {
 
             </main>
         </MainContainer>
-        </ColorContainer>
     )
 }

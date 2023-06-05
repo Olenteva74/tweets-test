@@ -1,13 +1,12 @@
 import styled from '@emotion/styled';
 import { NavLink } from "react-router-dom";
 
-export const ColorContainer = styled.div`
-background-color: #EBD8FF;
-`;
 
 export const MainContainer = styled.div`
+background-color: #EBD8FF;
 padding: 0 15px;
 margin: 0 auto;
+min-width: 320px;
 @media screen and (min-width: 480px) {
         width: 480px;    
     }

@@ -2,6 +2,8 @@ import styled from '@emotion/styled';
 
 export const ButtonContainer = styled.div`
 display: flex;
+flex-wrap: wrap;
+gap: 4px;
 margin-bottom: 20px;
 `;
 

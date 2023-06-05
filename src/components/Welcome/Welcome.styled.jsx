@@ -3,11 +3,15 @@ import { Link } from 'react-router-dom';
 
 export const WelcomeWrapper = styled.section`
 display: flex;
-align-items: center;
 flex-direction: column;
+align-items: center;
 justify-content: center;
 height: 100vh;
 `;
+
+export const TextWrapper = styled.div`
+`;
+
 export const Text = styled.p`
 font-size: 20px;
 line-height: 1.5;
@@ -17,12 +21,19 @@ color: #373737;
 `;
 
 export const Title = styled.h1`
-font-size: 100px;
+font-size: 60px;
 line-height: 1.5;
 font-family: 'Montserrat', sans-serif;
 text-transform: uppercase; 
 color: #373737;
-margin: 0 auto;
+@media screen and (min-width: 768px) {
+    font-size: 100px; 
+}
+`;
+
+export const LinkWrapper = styled.div`
+display: flex;
+justify-content: flex-end;
 `;
 
 export const LinkStyled = styled(Link)`

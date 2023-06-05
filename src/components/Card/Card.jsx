@@ -10,20 +10,10 @@ import { getComma } from "utils/utils";
 
 export const Card = ({avatar, tweets, followers, user, id, isFollowing}) => {
    const dispatch = useDispatch(); 
- 
 
-    const getCounter = () => {
-        if (isFollowing) {
-            return followers + 1;
-        }
-        return followers;
-    }
+   const [counter, setCounter] = useState(isFollowing ? followers + 1 : followers);
 
-    const saveCounter = getCounter();
-
-    const [counter, setCounter] = useState(saveCounter);
-
-    const toggle = () => {
+   const toggle = () => {
         dispatch(toggleStatus(id));
         if (!isFollowing) {
             return setCounter(counter => counter + 1);

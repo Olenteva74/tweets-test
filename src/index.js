@@ -11,10 +11,11 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   
    <Provider store={store}>
     <PersistGate loading={null} persistor={persistor}>
-     <BrowserRouter basename="/tweets-test">
+     <BrowserRouter >
        <App />
      </BrowserRouter>
     </PersistGate>
    </Provider>
    
 );
+// basename="/tweets-test"

@@ -5,7 +5,7 @@ export const StyledLink = styled(Link)`
 display: inline-flex;
 align-items: center;
 gap: 4px;
-padding: 4px 0;
+padding: 4px 0px;
 margin-bottom: 12px;
 color:  #373737;
 text-decoration: none;

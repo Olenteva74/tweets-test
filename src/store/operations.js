@@ -14,7 +14,7 @@ export const fetchUsers = createAsyncThunk("users/fetchUsers", async (p, {reject
             }
           });
 
-         if (response.data.length < 3) {
+         if (response.data.length === 0) {
             toast.error("Soryy! No more users", {
                 position: toast.POSITION.TOP_RIGHT
               });
