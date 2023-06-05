@@ -7,11 +7,11 @@ The user card contains an interactive button. On toggle button button's color ch
 User's cards can be filtered by status: "all", "follow", "followings".    
 If the component is unmounted when user is on the Tweets-page, the user's data saves in the storage.    
 If the user goes to the Home-page, the storage cleared.     
-Using [mockapi.io] (https://mockapi.io/projects) for backend requests.    
-User's avatars received from [pixabay] (https://pixabay.com/).
+Using [mockapi.io](https://mockapi.io/projects) for backend requests.    
+User's avatars received from [pixabay](https://pixabay.com/).
 
 ## Tech tasks
-1️. ✅ To implement user's cards according to the [layout] (https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?type=design&node-id=0-1&t=TK9lDKzWuV3eclAz-0)    
+1️. ✅ To implement user's cards according to the [layout](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?type=design&node-id=0-1&t=TK9lDKzWuV3eclAz-0)    
 2. ✅ To change text from "Follow" to "Following" on click button.    
   * The color of the button changes.    
   * The count of the followers changes.    
